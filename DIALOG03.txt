@@ -37,7 +37,6 @@ conversation
 			nextpage = 4;			
 			special = 80;
 			arg0 = 666;		
-			giveitem = "CellPack";				
 		}
 	}		
 	page
