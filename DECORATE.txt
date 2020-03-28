@@ -1,3 +1,4 @@
 #include Actors/Cluster_Friendly.txt
 #include Actors/Cluster_Monsters.txt
 #include Actors/Cluster_Objects.txt
+#include Actors/Cluster_Player.txt
