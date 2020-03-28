@@ -1,0 +1,54 @@
+namespace = "ZDoom";
+
+conversation
+{
+	id = 2;
+	actor = "HoloHitler";
+	page
+	{
+		name = "Vega";
+		dialog = "In this mission you must try to save John Romero from the coronavirus!";		
+		goodbye = "Goodbye...";
+		choice
+		{
+			text = "Okay, Where am I?";
+			nextpage = 2;			
+		}
+	}
+	page
+	{
+		name = "Vega";
+		dialog = "you were miniaturized and inserted into John's anus to make sure you did a full virus cleanup";		
+		goodbye = "I won't listen to you anymore.";
+		choice
+		{ 
+			text = "WTF?!";
+			nextpage = 3;			
+		}
+	}	
+	page
+	{
+		name = "Vega";
+		dialog = "You must try the way to find the John's brain and protect it from the virus horde, good luck Slayer";		
+		goodbye = "I won't listen to you anymore.";
+		choice
+		{ 
+			text = "I'll need a powerful weapon then...";
+			nextpage = 4;			
+			special = 80;
+			arg0 = 666;		
+			giveitem = "CellPack";				
+		}
+	}		
+	page
+	{
+		name = "Vega";
+		dialog = "Here you have the almighty plasmarifle sure you'll need it!";		
+		goodbye = "No Thanks.";		
+		choice
+		{ 
+			text = "Thanks.";
+			giveitem = "PlasmaRifle";			
+		}		
+	}	
+}

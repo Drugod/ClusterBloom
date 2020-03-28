@@ -1,0 +1,187 @@
+// Plasma
+PointLight FIREBALL
+{
+    Color 0.9 0.6 0.0
+    Size 56
+}
+
+PointLight PLASMA_X0
+{
+    Color 0.0 0.0 0.3
+    Size 56
+}
+
+FlickerLight PLASMA_X1
+{
+    Color 0.0 0.0 0.4
+    Size 64
+    SecondarySize 72
+    Chance 0.4
+}
+
+FlickerLight PLASMA_X2
+{
+    Color 0.0 0.0 0.5
+    Size 80
+    SecondarySize 88
+    Chance 0.4
+}
+
+FlickerLight PLASMA_X3
+{
+    Color 0.0 0.0 0.6
+    Size 64
+    SecondarySize 72
+    Chance 0.4
+}
+
+FlickerLight PLASMA_X4
+{
+    Color 0.0 0.0 0.7
+    Size 8
+    SecondarySize 16
+    Chance 0.4
+}
+
+FlickerLight GREENPLASMA_X1
+{
+    Color 0.0 0.2 0.0
+    Size 64
+    SecondarySize 128
+    Chance 0.4	
+}
+
+FlickerLight GREENPLASMA_X2
+{
+    Color 0.0 0.2 0.0
+    Size 32
+    SecondarySize 64
+    Chance 0.4		
+}
+
+FlickerLight GREENPLASMA_X3
+{
+    Color 0.0 0.2 0.0
+    Size 16
+    SecondarySize 32
+    Chance 0.4		
+}
+
+FlickerLight GREENPLASMA_X4
+{
+    Color 0.0 0.2 0.0
+    Size 8
+    SecondarySize 16
+    Chance 0.4		
+}
+
+Object Cacovirus
+{
+    frame VIRUA { light GREENPLASMA_X1 }
+    frame VIRUB { light GREENPLASMA_X1 }
+    frame VIRUC { light GREENPLASMA_X1 }
+    frame VIRUD { light GREENPLASMA_X1 }
+    frame VIRUE { light GREENPLASMA_X1 }
+    frame VIRUF { light GREENPLASMA_X1 }
+    frame VIRUG { light GREENPLASMA_X1 }
+    frame VIRUH { light GREENPLASMA_X1 }
+    frame VIRUI { light GREENPLASMA_X1 }
+    frame VIRUJ { light GREENPLASMA_X1 }	
+    frame VIRUK { light GREENPLASMA_X1 }	
+    frame VIRUL { light GREENPLASMA_X1 }	
+    frame VIRUM { light GREENPLASMA_X1 }	
+    frame VIRUN { light GREENPLASMA_X1 }	
+    frame VIRUO { light GREENPLASMA_X1 }	
+    frame VIRUP { light GREENPLASMA_X1 }	
+    frame VIRUQ { light GREENPLASMA_X1 }	
+    frame VIRUR { light GREENPLASMA_X1 }	
+}
+
+Object Cacovirus1
+{
+    frame VIRUA { light GREENPLASMA_X2 }
+    frame VIRUB { light GREENPLASMA_X2 }
+    frame VIRUC { light GREENPLASMA_X2 }
+    frame VIRUD { light GREENPLASMA_X2 }
+    frame VIRUE { light GREENPLASMA_X2 }
+    frame VIRUF { light GREENPLASMA_X2 }
+    frame VIRUG { light GREENPLASMA_X2 }
+    frame VIRUH { light GREENPLASMA_X2 }
+    frame VIRUI { light GREENPLASMA_X2 }
+    frame VIRUJ { light GREENPLASMA_X2 }	
+    frame VIRUK { light GREENPLASMA_X2 }	
+    frame VIRUL { light GREENPLASMA_X2 }	
+    frame VIRUM { light GREENPLASMA_X2 }	
+    frame VIRUN { light GREENPLASMA_X2 }	
+    frame VIRUO { light GREENPLASMA_X2 }	
+    frame VIRUP { light GREENPLASMA_X2 }	
+    frame VIRUQ { light GREENPLASMA_X2 }	
+    frame VIRUR { light GREENPLASMA_X2 }	
+}
+
+Object Cacovirus2
+{
+    frame VIRUA { light GREENPLASMA_X3 }
+    frame VIRUB { light GREENPLASMA_X3 }
+    frame VIRUC { light GREENPLASMA_X3 }
+    frame VIRUD { light GREENPLASMA_X3 }
+    frame VIRUE { light GREENPLASMA_X3 }
+    frame VIRUF { light GREENPLASMA_X3 }
+    frame VIRUG { light GREENPLASMA_X3 }
+    frame VIRUH { light GREENPLASMA_X3 }
+    frame VIRUI { light GREENPLASMA_X3 }
+    frame VIRUJ { light GREENPLASMA_X3 }	
+    frame VIRUK { light GREENPLASMA_X3 }	
+    frame VIRUL { light GREENPLASMA_X3 }	
+    frame VIRUM { light GREENPLASMA_X3 }	
+    frame VIRUN { light GREENPLASMA_X3 }	
+    frame VIRUO { light GREENPLASMA_X3 }	
+    frame VIRUP { light GREENPLASMA_X3 }	
+    frame VIRUQ { light GREENPLASMA_X3 }	
+    frame VIRUR { light GREENPLASMA_X3 }	
+}
+
+Object Cacovirus3
+{
+    frame VIRUA { light GREENPLASMA_X4 }
+    frame VIRUB { light GREENPLASMA_X4 }
+    frame VIRUC { light GREENPLASMA_X4 }
+    frame VIRUD { light GREENPLASMA_X4 }
+    frame VIRUE { light GREENPLASMA_X4 }
+    frame VIRUF { light GREENPLASMA_X4 }
+    frame VIRUG { light GREENPLASMA_X4 }
+    frame VIRUH { light GREENPLASMA_X4 }
+    frame VIRUI { light GREENPLASMA_X4 }
+    frame VIRUJ { light GREENPLASMA_X4 }	
+    frame VIRUK { light GREENPLASMA_X4 }	
+    frame VIRUL { light GREENPLASMA_X4 }	
+    frame VIRUM { light GREENPLASMA_X4 }	
+    frame VIRUN { light GREENPLASMA_X4 }	
+    frame VIRUO { light GREENPLASMA_X4 }	
+    frame VIRUP { light GREENPLASMA_X4 }	
+    frame VIRUQ { light GREENPLASMA_X4 }	
+    frame VIRUR { light GREENPLASMA_X4 }	
+}
+
+Object HoloHitler
+{
+    frame HITLA { light PLASMA_X0 }
+    frame HITLB { light PLASMA_X0 }
+    frame HITLC { light PLASMA_X1 }
+    frame HITLD { light PLASMA_X1 }
+    frame HITLE { light PLASMA_X2 }
+    frame HITLF { light PLASMA_X2 }
+    frame HITLG { light PLASMA_X3 }
+    frame HITLH { light PLASMA_X3 }
+    frame HITLI { light PLASMA_X4 }
+	
+    frame HITMA { light PLASMA_X0 }
+    frame HITMB { light PLASMA_X0 }
+    frame HITMC { light PLASMA_X1 }
+    frame HITMD { light PLASMA_X1 }
+    frame HITME { light PLASMA_X2 }
+    frame HITMF { light PLASMA_X2 }
+    frame HITMG { light PLASMA_X3 }
+    frame HITMH { light PLASMA_X3 }
+    frame HITMI { light PLASMA_X4 }	
+}

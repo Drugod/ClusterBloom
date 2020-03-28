@@ -1,0 +1,18 @@
+//SPRITES WARPINGS
+warp texture SP_FACE1
+warp texture XTEX0641
+warp texture XTEX0642
+warp texture XTEX0643
+warp texture XTEX0644
+warp texture XTEX0645
+warp texture XTEX0646
+warp texture XTEX0647
+
+flat XTEX0641
+	pic XTEX0641 rand 8 8
+	pic XTEX0642 rand 8 8
+	pic XTEX0643 rand 8 8
+	pic XTEX0644 rand 8 8
+    pic XTEX0645 rand 8 8
+	pic XTEX0646 rand 8 8
+	pic XTEX0647 rand 8 8
