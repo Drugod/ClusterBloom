@@ -1,7 +1,6 @@
-DamageType Plasma
+gameinfo
 {
-    Factor = 0
-    ReplaceFactor // Not truly necessary, since we multiply by 0.
+	PlayerClasses = "DoomPlayerCluster"
 }
 
 map MAP01 lookup "Wellcome to ClusterBloom"
@@ -30,4 +29,15 @@ map MAP03 lookup "Coronavirus"
 	cluster = 5
 	par = 120
 	music = "$MUSIC_COUNTD"
+}
+
+DoomEdNums
+{
+	6000=Cacovirus
+	6001=HoloHitler
+	6002=WhiteCells
+	19666=NaziCaptured
+	19667=Bonsai
+	19668=Ask
+	19669=CoronaBeer
 }

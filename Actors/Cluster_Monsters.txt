@@ -1,7 +1,7 @@
 Actor BossRomero replaces BossBrain
 {
-  //$Category "ClustBlooM Monsters"
-  //$Color 2
+	//$Category "ClustBlooM Monsters"
+	//$Color 2
 	Radius 24
 	Height 48
 	Health 50
@@ -13,75 +13,75 @@ Actor BossRomero replaces BossBrain
 	DeathSound "brain/death"
 	States
 	{
-		BrainExplode:
-			MISL BC 10 Bright
-			MISL D 10 A_BrainExplode
-			Stop
-		Spawn:
-			BBRN A -1
-			Stop
-		Pain:
-			BBRN B 36 A_BrainPain
-			Goto Spawn
-		Death:
-			BBRN B 10 A_BrainPain
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10 A_BrainPain
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10 A_BrainPain
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10 A_BrainPain
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10 A_BrainPain
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10 A_BrainPain
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
-			MISL BC 10 Bright
-			MISL D 10 A_BrainExplode
-			Stop
+	BrainExplode:
+		MISL BC 10 Bright
+		MISL D 10 A_BrainExplode
+		Stop
+	Spawn:
+		BBRN A -1
+		Stop
+	Pain:
+		BBRN B 36 A_BrainPain
+		Goto Spawn
+	Death:
+		BBRN B 10 A_BrainPain
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10 A_BrainPain
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10 A_BrainPain
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10 A_BrainPain
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10 A_BrainPain
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10 A_BrainPain
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		BBRN B 10 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		TNT1 AAAA 0 A_SpawnItemEx("ExplosionDeath",frandom(-35.0,35.0),frandom(-35.0,35.0),random(5,64))
+		MISL BC 10 Bright
+		MISL D 10 A_BrainExplode
+		Stop
 	}
 }
 
-Actor ExplosionDeath
+ACTOR ExplosionDeath
 {
 	+NOGRAVITY
 	States
 	{
-		Spawn:
-			MISL BC 10 Bright
-			MISL D 10 A_BrainExplode
-			Stop
+	Spawn:
+		MISL BC 10 Bright
+		MISL D 10 A_BrainExplode
+		Stop
 	}
 }
 
-ACTOR Cacovirus 6000
+ACTOR Cacovirus
 {
-  //$Category "ClustBlooM Monsters"
-  //$Color 2
+	//$Category "ClustBlooM Monsters"
+	//$Color 2
 	Health 100
 	Radius 31
 	Height 56
@@ -92,35 +92,35 @@ ACTOR Cacovirus 6000
 	+FLOAT
 	+FLOATBOB
 	+NOGRAVITY
-	+NOINFIGHTING  
-	-NOBLOCKMAP  
+	+NOINFIGHTING
+	-NOBLOCKMAP
 	SeeSound "caco/sight"
 	PainSound "caco/pain"
 	DeathSound "caco/death"
 	ActiveSound "caco/active"
 	Obituary "$OB_VIRUS"
-	HitObituary "$OB_VIRUSHIT"  
+	HitObituary "$OB_VIRUSHIT"
 	BloodColor "DarkGreen"
-	DamageFactor "Plasma",1.0	  
+	DamageFactor "Plasma",1.0
 	States
-	  {
-	  Spawn:
+	{
+	Spawn:
 		VIRU AAAAABBBBBBCCCCCCDDDDDD 1 A_Look
 		Loop
-	  See:
+	See:
 		VIRU AAAAABBBBBBCCCCCCDDDDDD 1 A_Chase("Melee","")
 		Loop
-	  Missile:
-	  Melee:
+	Missile:
+	Melee:
 		VIRU EF 8 Fast A_FaceTarget
 		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 4, "demon/melee")
 		Goto See
-	  Pain:
+	Pain:
 		VIRU H 3
 		VIRU H 3 A_Pain
 		VIRU I 6
 		Goto See
-	  Death:
+	Death:
 		VIRU J 5 Bright
 		VIRU K 4 Bright
 		VIRU L 3 Bright A_DualPainAttack ("Cacovirus1")
@@ -128,95 +128,95 @@ ACTOR Cacovirus 6000
 		VIRU N 3 Bright
 		VIRU O 3 Bright
 		VIRU P 3 Bright
-		VIRU Q 3 Bright	
+		VIRU Q 3 Bright
 		VIRU R 6 Bright
 		Stop
-	  }
+	}
 }
 
 ACTOR Cacovirus1 : Cacovirus
 {
-  Health 50
-  Radius 15
-  Height 25
-  Mass 200
-  Scale 0.5
-  Damage 3
-  States
-  {
-  Missile:
-  Melee:
-    VIRU EF 8 Fast A_FaceTarget
-    VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 2, "demon/melee")
-    Goto See  
-  Death:
-    VIRU J 5 Bright
-    VIRU K 4 Bright
-    VIRU L 3 Bright A_DualPainAttack ("Cacovirus2")
-    VIRU M 3 Bright
-	VIRU N 3 Bright
-	VIRU O 3 Bright
-	VIRU P 3 Bright
-	VIRU Q 3 Bright	
-	VIRU R 6 Bright
-    Stop	  
-  }
+	Health 50
+	Radius 15
+	Height 25
+	Mass 200
+	Scale 0.5
+	Damage 3
+	States
+	{
+	Missile:
+	Melee:
+		VIRU EF 8 Fast A_FaceTarget
+		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 2, "demon/melee")
+		Goto See
+	Death:
+		VIRU J 5 Bright
+		VIRU K 4 Bright
+		VIRU L 3 Bright A_DualPainAttack ("Cacovirus2")
+		VIRU M 3 Bright
+		VIRU N 3 Bright
+		VIRU O 3 Bright
+		VIRU P 3 Bright
+		VIRU Q 3 Bright
+		VIRU R 6 Bright
+		Stop
+	}
 }
 
 ACTOR Cacovirus2 : Cacovirus
 {
-  Health 25
-  Radius 7
-  Height 12
-  Mass 100
-  Scale 0.25
-  Damage 2
-  States
-  {
-  Missile:
-  Melee:
-    VIRU EF 8 Fast A_FaceTarget
-    VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 1, "demon/melee")
-    Goto See  
-  Death:
-    VIRU J 5 Bright
-    VIRU K 4 Bright
-    VIRU L 3 Bright A_DualPainAttack ("Cacovirus3")
-    VIRU M 3 Bright
-	VIRU N 3 Bright
-	VIRU O 3 Bright
-	VIRU P 3 Bright
-	VIRU Q 3 Bright	
-	VIRU R 6 Bright
-    Stop
-  }  
+	Health 25
+	Radius 7
+	Height 12
+	Mass 100
+	Scale 0.25
+	Damage 2
+	States
+	{
+	Missile:
+	Melee:
+		VIRU EF 8 Fast A_FaceTarget
+		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 1, "demon/melee")
+		Goto See
+	Death:
+		VIRU J 5 Bright
+		VIRU K 4 Bright
+		VIRU L 3 Bright A_DualPainAttack ("Cacovirus3")
+		VIRU M 3 Bright
+		VIRU N 3 Bright
+		VIRU O 3 Bright
+		VIRU P 3 Bright
+		VIRU Q 3 Bright
+		VIRU R 6 Bright
+		Stop
+	}
 }
 
 ACTOR Cacovirus3 : Cacovirus
 {
-  Health 12
-  Radius 3
-  Height 6
-  Mass 50
-  Scale 0.125
-  Damage 1
-  States
-  {
-  Missile:
-  Melee:
-    VIRU EF 8 Fast A_FaceTarget
-    VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 5) * 1, "demon/melee")
-    Goto See      
-  Death:
-    VIRU J 5 Bright
-    VIRU K 4 Bright
-    VIRU L 3 Bright
-    VIRU M 3 Bright
-	VIRU N 3 Bright
-	VIRU O 3 Bright
-	VIRU P 3 Bright
-	VIRU Q 3 Bright	
-	VIRU R 6 Bright
-    Stop	  
-  }  
+	Health 12
+	Radius 3
+	Height 6
+	Mass 50
+	Scale 0.125
+	Damage 1
+	States
+	{
+	Missile:
+	Melee:
+		VIRU EF 8 Fast A_FaceTarget
+		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 5) * 1, "demon/melee")
+		Goto See
+	Death:
+		VIRU J 5 Bright
+		VIRU K 4 Bright
+		VIRU L 3 Bright
+		VIRU M 3 Bright
+		VIRU N 3 Bright
+		VIRU O 3 Bright
+		VIRU P 3 Bright
+		VIRU Q 3 Bright
+		VIRU R 6 Bright
+		Stop
+	}
 }

@@ -1,22 +1,22 @@
-Actor bonsai: BigTree 19667
+ACTOR Bonsai : BigTree
 {
-  //$Category "ClustBlooM Stuff"
-  //$Color 3
+	//$Category "ClustBlooM Stuff"
+	//$Color 3
 	Scale 0.25
 	Radius 8
 	Height 27
 }
 
-Actor Ask 19668
+ACTOR Ask
 {
-  //$Category "ClustBlooM Stuff"
-  //$Color 3
+	//$Category "ClustBlooM Stuff"
+	//$Color 3
 	-SOLID
 	+BRIGHT
 	+FLOAT
 	+NOGRAVITY
 	Scale 0.1
-	Height 8	
+	Height 8
 	Radius 8
 	States
 	{
@@ -40,7 +40,7 @@ ACTOR Debris_Base //From Blade of Agony, Courtesy by Ozymandias81
 	+ROLLCENTER
 	+ROLLSPRITE
 	+THRUSPECIES
-	//Species "Player" //define species for Players to not get stuck inside them
+	Species "Player"
 	BounceType "Doom"
 	BounceFactor 0.3
 	WallBounceFactor 0.3
@@ -86,10 +86,10 @@ ACTOR Debris_GlassShard_Small : Debris_Base
 ACTOR Debris_GlassShard_Medium : Debris_GlassShard_Small { Scale 0.5 }
 ACTOR Debris_GlassShard_Large : Debris_GlassShard_Small { Scale 1.0 }
 
-ACTOR CoronaBeer 19669
+ACTOR CoronaBeer
 {
-  //$Category "ClustBlooM Stuff"
-  //$Color 3
+	//$Category "ClustBlooM Stuff"
+	//$Color 3
 	Radius 4
 	Height 8
 	Health 10
