@@ -1,3 +1,9 @@
+DamageType Plasma
+{
+    Factor = 0
+    ReplaceFactor // Not truly necessary, since we multiply by 0.
+}
+
 map MAP01 lookup "Wellcome to ClusterBloom"
 {
 	next = "MAP02"

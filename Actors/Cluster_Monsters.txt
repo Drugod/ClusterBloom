@@ -82,54 +82,56 @@ ACTOR Cacovirus 6000
 {
   //$Category "ClustBlooM Monsters"
   //$Color 2
-  Health 100
-  Radius 31
-  Height 56
-  Mass 400
-  Speed 8
-  PainChance 128
-  Monster
-  +FLOAT
-  +FLOATBOB
-  +NOGRAVITY
-  +NOINFIGHTING  
-  SeeSound "caco/sight"
-  PainSound "caco/pain"
-  DeathSound "caco/death"
-  ActiveSound "caco/active"
-  Obituary "$OB_VIRUS"
-  HitObituary "$OB_VIRUSHIT"  
-  BloodColor "DarkGreen"
-  States
-  {
-  Spawn:
-    VIRU AAAAABBBBBBCCCCCCDDDDDD 1 A_Look
-	Loop
-  See:
-    VIRU AAAAABBBBBBCCCCCCDDDDDD 1 A_Chase("Melee","")
-    Loop
-  Missile:
-  Melee:
-    VIRU EF 8 Fast A_FaceTarget
-    VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 4, "demon/melee")
-    Goto See
-  Pain:
-    VIRU H 3
-    VIRU H 3 A_Pain
-    VIRU I 6
-    Goto See
-  Death:
-    VIRU J 5 Bright
-    VIRU K 4 Bright
-    VIRU L 3 Bright A_DualPainAttack ("Cacovirus1")
-    VIRU M 3 Bright
-	VIRU N 3 Bright
-	VIRU O 3 Bright
-	VIRU P 3 Bright
-	VIRU Q 3 Bright	
-	VIRU R 6 Bright
-    Stop
-  }
+	Health 100
+	Radius 31
+	Height 56
+	Mass 400
+	Speed 8
+	PainChance 128
+	Monster
+	+FLOAT
+	+FLOATBOB
+	+NOGRAVITY
+	+NOINFIGHTING  
+	-NOBLOCKMAP  
+	SeeSound "caco/sight"
+	PainSound "caco/pain"
+	DeathSound "caco/death"
+	ActiveSound "caco/active"
+	Obituary "$OB_VIRUS"
+	HitObituary "$OB_VIRUSHIT"  
+	BloodColor "DarkGreen"
+	DamageFactor "Plasma",1.0	  
+	States
+	  {
+	  Spawn:
+		VIRU AAAAABBBBBBCCCCCCDDDDDD 1 A_Look
+		Loop
+	  See:
+		VIRU AAAAABBBBBBCCCCCCDDDDDD 1 A_Chase("Melee","")
+		Loop
+	  Missile:
+	  Melee:
+		VIRU EF 8 Fast A_FaceTarget
+		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 4, "demon/melee")
+		Goto See
+	  Pain:
+		VIRU H 3
+		VIRU H 3 A_Pain
+		VIRU I 6
+		Goto See
+	  Death:
+		VIRU J 5 Bright
+		VIRU K 4 Bright
+		VIRU L 3 Bright A_DualPainAttack ("Cacovirus1")
+		VIRU M 3 Bright
+		VIRU N 3 Bright
+		VIRU O 3 Bright
+		VIRU P 3 Bright
+		VIRU Q 3 Bright	
+		VIRU R 6 Bright
+		Stop
+	  }
 }
 
 ACTOR Cacovirus1 : Cacovirus

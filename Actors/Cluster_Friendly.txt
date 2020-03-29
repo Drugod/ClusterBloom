@@ -126,8 +126,8 @@ Actor WhiteCells 6002
 	DeathSound "wolfss/death"
 	ActiveSound "wolfss/active"
 	AttackSound "wolfss/attack"
-	Dropitem "CellPack"
 	Translation "112:127=80:95"
+	DropItem "Medikit"
 	+LOOKALLAROUND
 	+MISSILEEVENMORE
 	+MISSILEMORE
