@@ -137,6 +137,7 @@ Actor WhiteCells 6002
 	+DROPOFF
 	Species "Human"			
 	DamageFactor "Plasma",0.0	
+	BloodColor "Yellow"
 	States
 	{
 	Spawn:
@@ -177,15 +178,24 @@ Actor WhiteCells 6002
 		PLAY I 10 A_PlayerScream
 		PLAY J 10 A_NoBlocking
 		PLAY KLM 10
-		PLAY N -1
-	Stop
+	DeathWait:
+		PLAY N 1 A_CheckSight("DeathFade")
+	loop
+	DeathFade:
+		PLAY N 1 A_FadeOut(0.02)
+	loop	
 	XDeath:
 		PLAY O 5
 		PLAY P 5 A_XScream
 		PLAY Q 5 A_NoBlocking
 		PLAY RSTUV 5
 		PLAY W -1
-	Stop
+	XDeathWait:
+		PLAY W 1 A_CheckSight("XDeathFade")
+	loop
+	XDeathFade:
+		PLAY W 1 A_FadeOut(0.02)
+	loop			
   }
 }
 
