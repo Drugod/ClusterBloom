@@ -111,18 +111,16 @@ Actor FriendlyNazi
 	}
 }
 
-Actor Whiteknight 6002
+Actor WhiteCells 6002
 {
   //$Category "ClustBlooM Friendly Chars"
   //$Color 1
+	Monster  
 	Health 400
 	Radius 20
 	Height 56
 	Speed 32
 	PainChance 24
-	Monster
-	+FLOORCLIP
-	+FRIENDLY
 	SeeSound "wolfss/sight"
 	PainSound "wolfss/pain"
 	DeathSound "wolfss/death"
@@ -133,9 +131,12 @@ Actor Whiteknight 6002
 	+LOOKALLAROUND
 	+MISSILEEVENMORE
 	+MISSILEMORE
-	Species "Human"		
 	+DONTHARMSPECIES
-	DamageFactor "friendlyfire",0.0	
+	+FRIENDLY	
+	+FLOORCLIP
+	+DROPOFF
+	Species "Human"			
+	DamageFactor "Plasma",0.0	
 	States
 	{
 	Spawn:
@@ -143,12 +144,30 @@ Actor Whiteknight 6002
 	Loop
 	See:
 		PLAY ABCD 4 A_Chase
+		TNT1 A 0 A_CheckBlock("Jump")		
+		TNT1 A 0 A_JumpIfTargetInLOS("Missile")
+		TNT1 A 0 A_CheckRange(3000.0,"Teleporter",true)
 	Loop
 	Missile:
 		PLAY E 10 A_FaceTarget
 		PLAY FE 4 Bright A_CustomMissile("PlasmaBallX")
 		PLAY F 1 A_MonsterRefire(130, "See")
-    Goto Missile+1		
+    Goto Missile+1
+	Jump:
+		PLAY A 1 A_Chase
+		PLAY AABB 2 ThrustThingz(0,30,0,0)
+		PLAY BBCC 2 A_Recoil(-6)
+		PLAY DD 1
+		Goto See	
+	Teleporter:
+		PLAY A 1 A_CheckBlock("See",CBF_NOLINES)
+		TNT1 A 0 A_SpawnItemEx("TeleportFog",0,0,0,0,0,0,0)
+		PLAY B 1 A_Warp(AAPTR_PLAYER1,Random(40,60),Random(40,60),0,0,0,"Destination")
+		Goto See
+	Destination:
+		TNT1 A 0 A_SpawnItemEx("TeleportFog",0,0,0,0,0,0,0)	
+		PLAY CD 2 A_Chase
+		Goto See		
 	Pain:
 		PLAY G 4 
 		PLAY G 4 A_Pain
@@ -172,5 +191,5 @@ Actor Whiteknight 6002
 
 Actor PlasmaBallX: PlasmaBall
 {
-	damagetype "friendlyfire"
+	damagetype Plasma
 }

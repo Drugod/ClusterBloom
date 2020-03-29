@@ -8,7 +8,8 @@ ACTOR DoomPlayerCluster : PlayerPawn replaces DoomPlayer
 	Species "Human"		
 	+DONTHARMSPECIES
 	PainChance 255
-	DamageFactor "friendlyfire",0.0
+	DamageFactor "Plasma",0.0
+	PainChance "Plasma",0
 	Player.DisplayName "Marine"
 	Player.CrouchSprite "PLYC"
 	Player.StartItem "Pistol"
