@@ -29,25 +29,47 @@ conversation
 	page
 	{
 		name = "Vega";
-		dialog = "You must try the way to find the John's brain and protect it from the virus horde, good luck Slayer";		
+		dialog = "You must try the way to find the John's brain and protect it from the virus horde.";		
 		goodbye = "I won't listen to you anymore.";
 		choice
 		{ 
-			text = "I'll need a powerful weapon then...";
+			text = "Tell me more...";
 			nextpage = 4;			
-			special = 80;
-			arg0 = 666;		
+		}
+	}	
+	page
+	{
+		name = "Vega";
+		dialog = "This time you'll not be alone,\nI have incopored in your predator suit a device to generate white cells.";		
+		goodbye = "I won't listen to you anymore.";
+		choice
+		{ 
+			text = "Tell me more...";
+			nextpage = 5;			
 		}
 	}		
 	page
 	{
 		name = "Vega";
-		dialog = "Here you have the almighty plasmarifle sure you'll need it!";		
+		dialog = "Your suit would spawn a maximum of 5 white cells,\nin case one or several of them would be eliminated,\nthe device would replace by new ones.";		
+		goodbye = "I won't listen to you anymore.";
+		choice
+		{ 
+			text = "I'll need a powerful weapon then...";
+			nextpage = 6;			
+		}
+	}	
+	page
+	{
+		name = "Vega";
+		dialog = "Affirmative, here you have a miniaturized version of plasmarifle";		
 		goodbye = "No Thanks.";		
 		choice
 		{ 
 			text = "Thanks.";
 			giveitem = "PlasmaRifle";			
+			special = 80;
+			arg0 = 666;		
 		}		
 	}	
 }
