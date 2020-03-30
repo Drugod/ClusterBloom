@@ -1,0 +1,2 @@
+alias timerfreeze "freeze"
+defaultbind Y timerfreeze
