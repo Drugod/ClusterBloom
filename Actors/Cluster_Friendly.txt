@@ -142,7 +142,7 @@ ACTOR WhiteCells : FriendlyActor
 		PLAY ABCD 4 A_Chase
 		TNT1 A 0 A_CheckBlock("Jump")
 		TNT1 A 0 A_JumpIfTargetInLOS("Missile")
-		TNT1 A 0 A_CheckRange(3000.0,"Teleporter",true)
+		TNT1 A 0 A_CheckRange(2000.0,"Teleporter",true)
 	Loop
 	Missile:
 		PLAY E 10 A_FaceTarget
