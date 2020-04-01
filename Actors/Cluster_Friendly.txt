@@ -29,6 +29,7 @@ ACTOR FriendlyActor
 	+FRIENDLY
 	+NOINFIGHTING
 	+THRUSPECIES
+	+NOTAUTOAIMED	
 }
 
 ACTOR HoloHitler : FriendlyNPC 
@@ -127,7 +128,7 @@ ACTOR WhiteCells : FriendlyActor
 	AttackSound "wolfss/attack"
 	Translation "112:127=80:95"
 	DropItem "Medikit"
-	+DROPOFF
+	//+DROPOFF
 	+LOOKALLAROUND
 	+MISSILEEVENMORE
 	+MISSILEMORE

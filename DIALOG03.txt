@@ -73,3 +73,23 @@ conversation
 		}		
 	}	
 }
+
+conversation
+{
+	id = 3;
+	actor = "HoloHitler";
+	page
+	{
+		name = "Vega";
+		dialog = "To free up access to the trachea we need to inoculate 400 mcg of Albuterol into John,\nbut we'll start the virus spread, do you want to proceed?";		
+		goodbye = "Not yet.";		
+		choice
+		{
+			text = "Okay, lets go..";
+			yesmessage = "Inoculating 400 mcg of Albuterol";
+			closedialog = true;
+			special = 80;
+			arg0 = 667;		
+		}
+	}
+}
