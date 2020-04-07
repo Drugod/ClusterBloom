@@ -1,0 +1,9 @@
+//Rolls
+Model ModelLung
+{
+   Path "Models"
+   Model 0 "Lungs.md2"
+   Skin 0 "Lungs2.png"
+   FrameIndex UNKN A 0 0
+   Scale 1.0 1.0 1.0
+}
