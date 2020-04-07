@@ -1,6 +1,6 @@
 ACTOR ModelLung 18072
 {
-	//$Category "ClustBlooM Monsters"
+	//$Category "ClustBlooM Models"
 	//$Color 4
 	Radius 128
 	Height 128

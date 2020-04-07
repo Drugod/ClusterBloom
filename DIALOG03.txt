@@ -81,15 +81,28 @@ conversation
 	page
 	{
 		name = "Vega";
-		dialog = "To free up access to the trachea we need to inoculate 400 mcg of Albuterol into John,\nbut we'll start the virus spread, do you want to proceed?";		
-		goodbye = "Not yet.";		
+		dialog = "Detected virical presence , recommended increment white cells generator to 5 units more\n¿Do you want proceed?";		
+		goodbye = "Negative.";		
 		choice
 		{
-			text = "Okay, lets go..";
+			text = "Affirmative.";
+			special = 80;
+			arg0 = 667;	
+			nextpage = 2;			
+		}
+	}
+	page
+	{
+		name = "Vega";
+		dialog = "To free up access to the trachea we need to inoculate 400 mcg of Albuterol into John,\nbut we'll start the virus spread, do you want to proceed?";		
+		goodbye = "Negative.";		
+		choice
+		{
+			text = "Affirmative.";
 			yesmessage = "Inoculating 400 mcg of Albuterol";
 			closedialog = true;
 			special = 80;
-			arg0 = 667;		
+			arg0=668;
 		}
-	}
+	}	
 }
