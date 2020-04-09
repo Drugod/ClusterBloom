@@ -4,7 +4,7 @@ ACTOR ModelLung 18072
 	//$Color 4
 	Radius 128
 	Height 128
-	Scale 1.0
+	Scale 24.0
 	Mass 100000
 	+NOGRAVITY
 	States
