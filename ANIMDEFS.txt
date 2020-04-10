@@ -7,7 +7,7 @@ warp texture XTEX0644
 warp texture XTEX0645
 warp texture XTEX0646
 warp texture XTEX0647
-warp2 texture BRAIN 0.1
+warp2 texture BRAIN1 0.1
 
 flat XTEX0641
 	pic XTEX0641 rand 8 8

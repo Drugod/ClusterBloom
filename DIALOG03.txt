@@ -68,10 +68,23 @@ conversation
 		{ 
 			text = "Thanks.";
 			giveitem = "PlasmaRifle";			
+			yesmessage = "Rip and tear all that fucking coronavirus";			
 			special = 80;
-			arg0 = 666;		
+			arg0 = 666;	
+			nextpage = 7;
+			closedialog = true;			
 		}		
-	}	
+	}
+	page
+	{
+		name = "Vega";
+		dialog = "If your health level is low, destroy John's white cells, they'll give you medkits";		
+		goodbye = "...";
+		choice
+		{ 
+			text = "Ok...";
+		}
+	}		
 }
 
 conversation
@@ -99,10 +112,21 @@ conversation
 		choice
 		{
 			text = "Affirmative.";
-			yesmessage = "Inoculating 400 mcg of Albuterol";
+			yesmessage = "Inoculating 400 mcg of Albuterol\n Access to upper levels granted";
 			closedialog = true;
 			special = 80;
 			arg0=668;
+			nextpage = 3;				
 		}
-	}	
+	}
+	page
+	{
+		name = "Vega";
+		dialog = "Now you can acces to the brain level";		
+		goodbye = "...";
+		choice
+		{ 
+			text = "Affirmative";
+		}
+	}		
 }
