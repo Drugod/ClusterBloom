@@ -4,13 +4,12 @@ ACTOR ModelLung 18072
 	//$Color 4
 	Radius 128
 	Height 128
-	Scale 24.0
-	Mass 100000
+	Scale 0.93 //use this value if you don't want to scale it on UDB, and invert the roll value for the right lung to fit in map - ozy81
 	+NOGRAVITY
 	States
 	{
 	Spawn:
-		UNKN A -1
-		Stop
+		UNKN AAAABCDEFGHIJK 24
+		Loop
 	}
 }

@@ -1,10 +1,21 @@
-//Rolls
+//Rolls (model & skin) & Ozy81 (anims only)
 Model ModelLung
 {
-   USEACTORPITCH
    Path "Models"
-   Model 0 "Lungs.md2"
+   Model 0 "Lungs.md3"
    Skin 0 "Lungs.png"
+   Scale 24.0 24.0 24.0
+   USEACTORPITCH
+   USEACTORROLL
    FrameIndex UNKN A 0 0
-   Scale 1.0 1.0 1.0   
+   FrameIndex UNKN B 0 1
+   FrameIndex UNKN C 0 2
+   FrameIndex UNKN D 0 3
+   FrameIndex UNKN E 0 4
+   FrameIndex UNKN F 0 5
+   FrameIndex UNKN G 0 6
+   FrameIndex UNKN H 0 7
+   FrameIndex UNKN I 0 8
+   FrameIndex UNKN J 0 9
+   FrameIndex UNKN K 0 10
 }
