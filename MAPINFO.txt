@@ -36,6 +36,11 @@ DoomEdNums
 	6000=Cacovirus
 	6001=HoloHitler
 	6002=WhiteCells
+	19057=ElectricOrb1
+	19058=ElectricOrb2
+	19066=Electricity1
+	19067=Electricity2
+	19068=Electricity3
 	19666=NaziCaptured
 	19667=Bonsai
 	19668=Ask
