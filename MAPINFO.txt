@@ -7,8 +7,6 @@ map MAP01 lookup "Wellcome to ClusterBloom"
 {
 	next = "MAP02"
 	sky1 = "SKY1"
-	cluster = 5
-	par = 30
 	NoIntermission	
 	music = "$MUSIC_RUNNIN"
 }
@@ -17,8 +15,6 @@ map MAP02 lookup "Massacre in Romero Games"
 {
 	next = "MAP01"
 	sky1 = "SKY1"
-	cluster = 5
-	par = 90
 	music = "$MUSIC_STALKS"
 }
 
@@ -26,8 +22,6 @@ map MAP03 lookup "Coronavirus"
 {
 	next = "MAP02"
 	sky1 = "SKY1"
-	cluster = 5
-	par = 120
 	music = "$MUSIC_COUNTD"
 }
 

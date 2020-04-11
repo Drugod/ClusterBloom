@@ -1,3 +1,5 @@
+#include "materials.gl"
+
 // Plasma
 PointLight FIREBALL
 {

@@ -130,7 +130,7 @@ ACTOR Electricity1 : SwitchableDecoration
 	+NOGRAVITY
 	+RANDOMIZE
 	DamageType "IceWater"
-	Obituary "$OBFIZZLE"
+	Obituary "$OB_FIZZLE"
 	Activation THINGSPEC_MonsterTrigger
 	States
 	{
@@ -186,11 +186,11 @@ ACTOR ElectricOrb1 : Electricity1
 	//$Title Electric Orb (big)
 	//$Sprite LABZA0
 	Height 16
-	+NOGRAVITY
+	+BRIGHT
 	States
 	{
 	ActiveAnim:
-		LABZ BCDE 3
+		LABZ ABCDE 3
 		Loop
 	}
 }
@@ -200,7 +200,7 @@ ACTOR ElectricOrb2 : Electricity1
 	//$Title Electric Orb (small)
 	//$Sprite LABZP0
 	Height 16
-	+NOGRAVITY
+	+BRIGHT
 	States
 	{
 	ActiveAnim:

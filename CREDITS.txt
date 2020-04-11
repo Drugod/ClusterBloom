@@ -1,5 +1,5 @@
 Submitted: Bloom Team
 Acs/Decorate/Maps: Drugod
 Sprites: Rolls
-Decorate/Testing: Ozymandias81
+Decorate/Materials/Testing: Ozymandias81
 Sounds: Id Software

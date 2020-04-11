@@ -1,1 +1,6 @@
-#include "zcommon.acs"
+#library "CLUSTER"
+
+script "FadeScreen" ENTER
+{
+	FadeRange(0,0,0,1.0,0,0,0,0.0,1.5);
+}
