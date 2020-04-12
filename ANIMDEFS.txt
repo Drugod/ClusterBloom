@@ -17,3 +17,10 @@ flat XTEX0641
     pic XTEX0645 rand 8 8
 	pic XTEX0646 rand 8 8
 	pic XTEX0647 rand 8 8
+	
+flat XTEX0770//Electric disturbances
+	RANDOM
+	pic XTEX0770 rand 8 8
+	pic XTEX0771 rand 8 8
+	pic XTEX0772 rand 8 8
+	pic XTEX0773 rand 8 32

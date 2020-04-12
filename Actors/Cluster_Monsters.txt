@@ -112,6 +112,8 @@ ACTOR Cacovirus
 		Loop
 	Missile:
 	Melee:
+		VIRU A 1 A_Jump(128,1)
+		Goto See
 		VIRU EF 8 Fast A_FaceTarget
 		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 4, "demon/melee")
 		Goto See
@@ -146,6 +148,8 @@ ACTOR Cacovirus1 : Cacovirus
 	{
 	Missile:
 	Melee:
+		VIRU A 1 A_Jump(128,1)
+		Goto See	
 		VIRU EF 8 Fast A_FaceTarget
 		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 2, "demon/melee")
 		Goto See
@@ -175,6 +179,8 @@ ACTOR Cacovirus2 : Cacovirus
 	{
 	Missile:
 	Melee:
+		VIRU A 1 A_Jump(128,1)
+		Goto See	
 		VIRU EF 8 Fast A_FaceTarget
 		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 1, "demon/melee")
 		Goto See
@@ -204,6 +210,8 @@ ACTOR Cacovirus3 : Cacovirus
 	{
 	Missile:
 	Melee:
+		VIRU A 1 A_Jump(128,1)
+		Goto See	
 		VIRU EF 8 Fast A_FaceTarget
 		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 5) * 1, "demon/melee")
 		Goto See
