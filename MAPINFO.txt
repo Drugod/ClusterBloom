@@ -3,26 +3,33 @@ gameinfo
 	PlayerClasses = "DoomPlayerCluster"
 }
 
+cluster 666 { hub }
+
 map MAP01 lookup "Wellcome to ClusterBloom"
 {
-	next = "MAP02"
+	levelnum = 1
 	sky1 = "SKY1"
+	cluster = 666  	
 	NoIntermission	
 	music = "$MUSIC_RUNNIN"
 }
 
 map MAP02 lookup "Massacre in Romero Games"
 {
-	next = "MAP01"
+	levelnum = 2
 	sky1 = "SKY1"
+	cluster = 666  	
+	NoIntermission		
 	music = "$MUSIC_STALKS"
 }
 
 map MAP03 lookup "Coronavirus"
 {
-	next = "MAP02"
+	levelnum = 3
 	sky1 = "SKY1"
-	music = "$MUSIC_COUNTD"
+	cluster = 666  	
+	NoIntermission		
+	music = ""
 }
 
 DoomEdNums
