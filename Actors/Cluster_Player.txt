@@ -9,8 +9,6 @@ ACTOR DoomPlayerCluster : PlayerPawn
 	+DONTHARMSPECIES
 	+THRUSPECIES
 	PainChance 255
-	//DamageFactor "Plasma",0.0
-	//PainChance "Plasma",0
 	Player.DisplayName "Marine"
 	Player.CrouchSprite "PLYC"
 	Player.StartItem "Pistol"
