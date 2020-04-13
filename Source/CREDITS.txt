@@ -1,0 +1,10 @@
+BlooM Team is Drugo, Roll and Ozymandias81
+
+Project Leader, Mapper, Textures, Scripting - Drugod
+Art Creator, Sprites, Textures - Rolls
+Quality Assurance, Scripting, Materials, Shaders - Ozymandias81
+Shaders - AFADoomer (ozywarp.fp bit from waves.fp shaders of WolfenDoom: Blade of Agony)
+Shaders - TheMisterCat (displacement.fp from Total Chaos)
+Shaders - Wad’a’Holic (displacement.fp from Total Chaos)
+
+Sounds - Id Software

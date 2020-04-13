@@ -1,5 +1,12 @@
 #include "materials.gl"
 
+Brightmap Texture XTEX0770	{ Map "materials/brightmaps/textures/XTEX0770.png" }
+Brightmap Texture XTEX0771	{ Map "materials/brightmaps/textures/XTEX0771.png" }
+Brightmap Texture XTEX0772	{ Map "materials/brightmaps/textures/XTEX0772.png" }
+Brightmap Texture "TEXTURES/XTEX0770.png"	{ Map "materials/brightmaps/textures/XTEX0770.png" }
+Brightmap Texture "TEXTURES/XTEX0771.png"	{ Map "materials/brightmaps/textures/XTEX0771.png" }
+Brightmap Texture "TEXTURES/XTEX0772.png"	{ Map "materials/brightmaps/textures/XTEX0772.png" }
+
 // Plasma
 PointLight FIREBALL
 {

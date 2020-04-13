@@ -3,8 +3,8 @@
 
 material texture textures/Brain1.png 
 {
-	//shader "Shaders/displacement.fp"
-	//texture displacement "materials/specular/auto/Brain1.png"
+	shader "Shaders/ozywarp.fp"
+	speed 0.1
 	normal materials/normalmaps/auto/Brain1.png
 	specular materials/specular/auto/Brain1.png
 	specularlevel 1.0
