@@ -41,4 +41,5 @@ DoomEdNums
 	19667=Bonsai
 	19668=Ask
 	19669=CoronaBeer
+	19670=GreenFloorfog	
 }

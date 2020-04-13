@@ -1,0 +1,21 @@
+ACTOR GreenFloorfog
+{
+	//$Category "ClustBlooM Fx"
+	//$Color 5
+	+FLOORCLIP
+	+NOGRAVITY
+	Renderstyle Add
+	Alpha 0.58
+	States
+	{
+	Spawn:
+		TNT1 A 0
+		TNT1 A 0 A_Jump(128,"Spawn2")
+	Spawn1:
+		CVF2 A -1
+		Stop
+	Spawn2:
+		CVF2 B -1
+		Stop
+	}
+}
