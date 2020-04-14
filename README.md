@@ -2,7 +2,7 @@ This repository belongs to BLOOM TEAM
 
 We have a website for this mod, check it asap: https://www.bloomteam666.com
 
-Also exists a ModDB page for it too: https://www.moddb.com/mods/massacre-in-romero-games-aka-cvwad
+Also exists a ModDB page for it too: https://www.moddb.com/mods/clusterbloom
 
 There are also threads on ZDoom Forums and Doomworld, check 'em out and give us feedbacks!
 
