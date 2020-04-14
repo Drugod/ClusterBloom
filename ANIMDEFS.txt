@@ -8,6 +8,10 @@ warp texture XTEX0645
 warp texture XTEX0646
 warp texture XTEX0647
 
+//Fx warping
+warp2 texture CVF2A0 0.3
+warp2 texture CVF2B0 0.3
+
 flat XTEX0641
 	pic XTEX0641 rand 8 8
 	pic XTEX0642 rand 8 8

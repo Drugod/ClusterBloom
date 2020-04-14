@@ -11,7 +11,7 @@ map MAP01 lookup "Wellcome to ClusterBloom"
 	sky1 = "SKY1"
 	cluster = 666  	
 	NoIntermission	
-	music = "$MUSIC_RUNNIN"
+	music = ""
 }
 
 map MAP02 lookup "Massacre in Romero Games"
