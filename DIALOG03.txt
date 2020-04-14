@@ -130,3 +130,82 @@ conversation
 		}
 	}		
 }
+
+conversation
+{
+	id = 4;
+	actor = "HoloHitler";
+	page
+	{
+		name = "Vega";
+		dialog = "Slayer, according to my data there's a yellow skull key somewhere on John's body.";		
+		goodbye = "I won't listen to you anymore.";
+		choice
+		{
+			text = "Okay, tell me more...";
+			nextpage = 2;			
+		}
+	}
+	page
+	{
+		name = "Vega";
+		dialog = "According to the data analyzed during the Void Wars.\nThe key is the primary element to access the shuttle portal of a lost ship in deep space called Hyperion.";
+		goodbye = "I won't listen to you anymore.";
+		choice
+		{
+			text = "Okay, tell me more...";
+			nextpage = 3;
+		}
+	}	
+	page
+	{
+		name = "Vega";
+		dialog = "Doomguy and Caleb during the Void Wars found remnants of an ancient legend located in another dimension,\nwhere humans traveled through hyperspace and met with Hasthur himself.";		
+		goodbye = "I won't listen to you anymore.";
+		choice
+		{
+			text = "Why is the key inside John?";
+			nextpage = 4;
+		}
+	}
+	page
+	{
+		name = "Vega";
+		dialog = "I guess his old job as a ICON OF SIN made him see and hear things out of reach.";		
+		goodbye = "I won't listen to you anymore.";
+		choice
+		{
+			text = "What do you want?";
+			nextpage = 5;
+		}
+	}		
+	page
+	{
+		name = "Vega";
+		dialog = "I need that key for my investigations. If you get it for me, I'll give you the the allmighty BFG9000.";		
+		goodbye = "No way!";
+		choice
+		{
+			text = "Okay, i'll do it!";
+			nextpage = 6;
+		}
+	}			
+	page
+	{
+		name = "Vega";
+		dialog = "You got the Yellow Skullkey?";		
+		goodbye = "Not yet.";
+		choice
+		{
+			text = "Okay, here you have it";
+			yesmessage = "Here its the allmighty BFG9000!";
+			giveitem = "BFG9000";			
+			closedialog = true;
+			cost
+			{
+				item = "YellowSkull";
+				amount = 1;
+			}
+			displaycost = true;
+			nomessage = "When you get the Yellow Skullkey, come back and we'll talk";
+}}}
