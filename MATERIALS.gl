@@ -12,8 +12,6 @@ material texture textures/Brain1.png
 
 material texture textures/Meat1.png 
 {
-	//shader "Shaders/displacement.fp"
-	//texture displacement "materials/specular/auto/Meat1.png"
 	normal materials/normalmaps/auto/Meat1.png
 	specular materials/specular/auto/Meat1.png
 	specularlevel 1.0
@@ -21,8 +19,6 @@ material texture textures/Meat1.png
 
 material texture textures/Meat2.png 
 {
-	//shader "Shaders/displacement.fp"
-	//texture displacement "materials/specular/auto/Meat2.png"
 	normal materials/normalmaps/auto/Meat2.png
 	specular materials/specular/auto/Meat2.png
 	specularlevel 1.0
@@ -30,8 +26,6 @@ material texture textures/Meat2.png
 
 material texture textures/Meat5.png 
 {
-	//shader "Shaders/displacement.fp"
-	//texture displacement "materials/specular/auto/Meat5.png"
 	normal materials/normalmaps/auto/Meat5.png
 	specular materials/specular/auto/Meat5.png
 	specularlevel 1.0
@@ -39,8 +33,6 @@ material texture textures/Meat5.png
 
 material texture textures/Meat6.png 
 {
-	//shader "Shaders/displacement.fp"
-	//texture displacement "materials/specular/auto/Meat6.png"
 	normal materials/normalmaps/auto/Meat6.png
 	specular materials/specular/auto/Meat6.png
 	specularlevel 1.0
@@ -48,8 +40,6 @@ material texture textures/Meat6.png
 
 material texture textures/Meat7.png 
 {
-	//shader "Shaders/displacement.fp"
-	//texture displacement "materials/specular/auto/Meat7.png"
 	normal materials/normalmaps/auto/Meat7.png
 	specular materials/specular/auto/Meat7.png
 	specularlevel 1.0
@@ -57,8 +47,6 @@ material texture textures/Meat7.png
 
 material texture textures/Meat8.png 
 {
-	//shader "Shaders/displacement.fp"
-	//texture displacement "materials/specular/auto/Meat8.png"
 	normal materials/normalmaps/auto/Meat8.png
 	specular materials/specular/auto/Meat8.png
 	specularlevel 1.0
