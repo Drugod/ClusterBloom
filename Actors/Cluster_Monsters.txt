@@ -112,10 +112,10 @@ ACTOR Cacovirus
 		Loop
 	Missile:
 	Melee:
-		VIRU A 1 A_Jump(128,1)
+		VIRU A 1 A_Jump(32,1)
 		Goto See
 		VIRU EF 8 Fast A_FaceTarget
-		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 4, "demon/melee")
+		VIRU GH 8 Fast A_CustomMeleeAttack(random(0, 10) * 2, "demon/melee")
 		Goto See
 	Pain:
 		VIRU H 3
@@ -148,10 +148,10 @@ ACTOR Cacovirus1 : Cacovirus
 	{
 	Missile:
 	Melee:
-		VIRU A 1 A_Jump(128,1)
+		VIRU A 1 A_Jump(64,1)
 		Goto See	
 		VIRU EF 8 Fast A_FaceTarget
-		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 2, "demon/melee")
+		VIRU GH 8 Fast A_CustomMeleeAttack(random(0, 10) * 1, "demon/melee")
 		Goto See
 	Death:
 		VIRU J 5 Bright
@@ -182,7 +182,7 @@ ACTOR Cacovirus2 : Cacovirus
 		VIRU A 1 A_Jump(128,1)
 		Goto See	
 		VIRU EF 8 Fast A_FaceTarget
-		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 10) * 1, "demon/melee")
+		VIRU GH 8 Fast A_CustomMeleeAttack(random(0, 5) * 1, "demon/melee")
 		Goto See
 	Death:
 		VIRU J 5 Bright
@@ -213,7 +213,7 @@ ACTOR Cacovirus3 : Cacovirus
 		VIRU A 1 A_Jump(128,1)
 		Goto See	
 		VIRU EF 8 Fast A_FaceTarget
-		VIRU GH 8 Fast A_CustomMeleeAttack(random(1, 5) * 1, "demon/melee")
+		VIRU GH 8 Fast A_CustomMeleeAttack(random(0, 1) * 1, "demon/melee")
 		Goto See
 	Death:
 		VIRU J 5 Bright

@@ -209,3 +209,57 @@ conversation
 			displaycost = true;
 			nomessage = "When you get the Yellow Skullkey, come back and we'll talk";
 }}}
+
+conversation
+{
+	id = 5;
+	actor = "HoloHitler";
+	page
+	{
+		name = "Vega";
+		dialog = "Congratulations Slayer, you've reached the brain,\nRecommended increment white cells generator to 5 units more\n¿Do you want proceed?";		
+		goodbye = "Negative.";		
+		choice
+		{
+			text = "Affirmative.";
+			special = 80;
+			arg0 = 667;	
+			nextpage = 2;			
+		}
+	}
+	page
+	{
+		name = "Vega";
+		dialog = "Romero's conscience is represented by the shape of the icon of sin, as he conceives himself.";		
+		goodbye = "Negative.";	
+		choice
+		{ 
+			text = "Okay, tell me more...";
+			nextpage = 3;	
+		}
+	}	
+	page
+	{
+		name = "Vega";
+		dialog = "You must protect it at all costs, otherwise if his conscience dies you will produce a total brain death.";		
+		goodbye = "Negative.";	
+		choice
+		{ 
+			text = "Affirmative.";
+			closedialog = true;			
+			special = 80;
+			arg0 = 670;	
+			nextpage = 4;			
+		}
+	}	
+	page
+	{
+		name = "Vega";
+		dialog = "Protect Romero's conscience now!";		
+		goodbye = "Negative.";	
+		choice
+		{ 
+			text = "Affirmative.";
+		}
+	}		
+}

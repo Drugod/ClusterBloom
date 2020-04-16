@@ -164,6 +164,7 @@ ACTOR WhiteCells : FriendlyActor
 		TNT1 A 0 A_CheckBlock("Jump")
 		TNT1 A 0 A_JumpIfTargetInLOS("Missile")
 		TNT1 A 0 A_CheckRange(2000.0,"Teleporter",true)
+		TNT1 A 0 A_ClearTarget
 	Loop
 	Missile:
 		ROME E 10 A_FaceTarget
@@ -215,10 +216,24 @@ ACTOR WhiteCells : FriendlyActor
   }
 }
 
+ACTOR BossRomero_friendly : BossRomero
+{
+	Health 5000
+	MONSTER
+	+FRIENDLY
+	DamageFactor "Plasma",0.0	
+	DamageFactor "PlasmaPlayer",0.0		
+}
+
 ACTOR PlasmaBallX: PlasmaBall
 {
 	Damagetype Plasma
 	Species "Player"
 	+DONTHARMSPECIES
 	+THRUSPECIES
+}
+
+ACTOR PlasmaBallY: PlasmaBall Replaces PlasmaBall
+{
+	Damagetype PlasmaPlayer
 }

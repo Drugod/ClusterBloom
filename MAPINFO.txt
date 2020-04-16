@@ -37,6 +37,7 @@ DoomEdNums
 	6000=Cacovirus
 	6001=HoloHitler
 	6002=WhiteCells
+	6003=BossRomero_friendly
 	19666=NaziCaptured
 	19667=Bonsai
 	19668=Ask
