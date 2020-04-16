@@ -79,6 +79,7 @@ ACTOR FriendlyNazi : FriendlyActor
 	+LOOKALLAROUND
 	+MISSILEEVENMORE
 	+MISSILEMORE
+	+QUICKTORETALIATE	
 	DamageFactor "Plasma",0.0
 	States
 	{
@@ -151,6 +152,7 @@ ACTOR WhiteCells : FriendlyActor
 	+LOOKALLAROUND
 	+MISSILEEVENMORE
 	+MISSILEMORE
+	+QUICKTORETALIATE
 	DamageFactor "Plasma",0.0
 	BloodColor "Yellow"
 	Scale 0.3
@@ -162,7 +164,7 @@ ACTOR WhiteCells : FriendlyActor
 	See:
 		ROME ABCD 4 A_Chase
 		TNT1 A 0 A_CheckBlock("Jump")
-		TNT1 A 0 A_JumpIfTargetInLOS("Missile")
+		//TNT1 A 0 A_JumpIfTargetInLOS("Missile")
 		TNT1 A 0 A_CheckRange(2000.0,"Teleporter",true)
 		TNT1 A 0 A_ClearTarget
 	Loop
@@ -194,24 +196,12 @@ ACTOR WhiteCells : FriendlyActor
 		ROME H 10
 		ROME I 10 A_playerScream
 		ROME J 10 A_NoBlocking
-		ROME KLM 10
+		ROME KLMNO 10
 	DeathWait:
-		ROME N 1 A_CheckSight("DeathFade")
+		ROME P 1 A_CheckSight("DeathFade")
 	Loop
 	DeathFade:
-		ROME N 1 A_FadeOut(0.02)
-	Loop
-	XDeath:
-		ROME O 5
-		ROME P 5 A_XScream
-		ROME Q 5 A_NoBlocking
-		ROME RSTUV 5
-		ROME W -1
-	XDeathWait:
-		ROME W 1 A_CheckSight("XDeathFade")
-	Loop
-	XDeathFade:
-		ROME W 1 A_FadeOut(0.02)
+		ROME P 1 A_FadeOut(0.02)
 	Loop
   }
 }
