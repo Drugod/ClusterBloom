@@ -5,13 +5,20 @@ gameinfo
 
 cluster 666 { hub }
 
-map MAP01 lookup "Wellcome to ClusterBloom"
+map TITLEMAP lookup "Hellcome to ClusterBloom"
+{
+	levelnum = 999
+	NoIntermission
+	music = "TITLEMUS"   
+ }
+
+map MAP01 lookup "The Void"
 {
 	levelnum = 1
 	sky1 = "SKY1"
 	cluster = 666  	
 	NoIntermission	
-	music = ""
+	music = "HELLCOME"   
 }
 
 map MAP02 lookup "Massacre in Romero Games"
@@ -20,7 +27,7 @@ map MAP02 lookup "Massacre in Romero Games"
 	sky1 = "SKY1"
 	cluster = 666  	
 	NoIntermission		
-	music = "$MUSIC_STALKS"
+	music = "MYCV"
 }
 
 map MAP03 lookup "Coronavirus"
@@ -29,7 +36,7 @@ map MAP03 lookup "Coronavirus"
 	sky1 = "SKY1"
 	cluster = 666  	
 	NoIntermission		
-	music = ""
+	music = "ROMANU"
 }
 
 DoomEdNums
