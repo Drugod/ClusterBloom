@@ -1,1 +1,18 @@
+//Beers
 GLASS5 GLASS5
+
+//LowHealth Effects
+HBEAT	HBEAT
+$volume HBEAT 1.0
+
+//Underwater
+underwt1	underwt1
+underwt2	underwt2
+underwt3	underwt3
+underwt4	underwt4
+$random underwtr { underwt1 underwt2 underwt3 underwt4 }
+$rolloff underwtr log 8 16
+
+//Ambient Sounds
+UNDERWATER_BUBBLE	UWBUBBL
+$AMBIENT 42 UNDERWATER_BUBBLE POINT CONTINUOUS 1.0

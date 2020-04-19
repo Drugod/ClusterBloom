@@ -1,8 +1,23 @@
-BlooM Team is Drugo, Roll and Ozymandias81
+*===================================================*
+*==> BlooM Team is Drugo, Rolls and Ozymandias81 <==*
+*===================================================*
 
 Project Leader, Mapper, Textures, Scripting - Drugod
-Art Creator, Sprites, Textures - Rolls
+Art Creator, Sprites, Textures, Midis - Rolls
 Quality Assurance, Scripting, Materials, Shaders - Ozymandias81
+
 Shaders - AFADoomer (ozywarp.fp bit from waves.fp shaders of WolfenDoom: Blade of Agony)
 
-Sounds - Id Software
+ZScripting - Ed The Bat for inventory event handler
+
+Scripting - Ed The Bat, Nash and MaxED for camera/death Tilt and Death effects
+Scripting - DaZombieKiller for LowHealth scripts, with Ozymandias81 and AFADoomer tweaks
+Scripting - hnSolo77 and Ghastly_Dragon for Bubble Spawner (old code)
+Scripting - Tormentor667 for Bubble Spawner (improved for Blade of Agony)
+
+Sprites - hnSolo77 for Bubble Spawner
+
+Graphics - Tormentor667 for M_INJ
+Graphics - AFADoomer for YOUDIED and FADE
+
+Sounds - Id Software, Human Head Studios (Prey 2006, heartbeat + underwater sounds)

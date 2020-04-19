@@ -9,7 +9,7 @@ OB_FIZZLE = "%o was fizzled to death.";
 //DIALOG
 ///////////////////////////////////
 //zombieman
-TXT_RANDOM_ZOMBIEMAN_01 = "Don't bother me, I'm busy watching the entrance";
+TXT_RANDOM_ZOMBIEMAN_01 = "Don't bother me, I'm busy watching the entrance.";
 TXT_RANDOM_ZOMBIEMAN_02 = "...";
 TXT_RANDOM_ZOMBIEMAN_03 = "Get out of my face...";
 TXT_RANDOM_ZOMBIEMAN_04 = "You don't look very smart, what are you doing here?";
@@ -17,42 +17,42 @@ TXT_RANDOM_ZOMBIEMAN_05 = "Oh no!...Another stupid programmer.";
 TXT_RANDOM_ZOMBIEMAN_06 = "There are no refunds here for Daikatana.";
 TXT_RANDOM_ZOMBIEMAN_07 = "I'm here to protect the Romero Games facility, not talk to you.";
 TXT_RANDOM_ZOMBIEMAN_08 = "No, this is not the Id Software building.";
-TXT_RANDOM_ZOMBIEMAN_09 = "You better talk to my partner";
-TXT_RANDOM_ZOMBIEMAN_10 = "Ok, doomer";
+TXT_RANDOM_ZOMBIEMAN_09 = "You better talk to my partner.";
+TXT_RANDOM_ZOMBIEMAN_10 = "Ok, doomer.";
 
 TXT_RANDOM_ANSZOMBIE_01 = "I'm sorry. I didn't mean to upset you.";
-TXT_RANDOM_ANSZOMBIE_02 = "You've offended me, I'm going to tweet about it";
+TXT_RANDOM_ANSZOMBIE_02 = "You've offended me, I'm going to tweet about it.";
 TXT_RANDOM_ANSZOMBIE_03 = "Calm down, don't get upset.";
-TXT_RANDOM_ANSZOMBIE_04 = "You seem tense, you should try meditation";
-TXT_RANDOM_ANSZOMBIE_05 = "I think I'm going to cry, I feel oppressed";
-TXT_RANDOM_ANSZOMBIE_06 = "I'm afraid I want to cry";
-TXT_RANDOM_ANSZOMBIE_07 = "I just want to meet my god John Romero";
+TXT_RANDOM_ANSZOMBIE_04 = "You seem tense, you should try meditation.";
+TXT_RANDOM_ANSZOMBIE_05 = "I think I'm going to cry, I feel so oppressed.";
+TXT_RANDOM_ANSZOMBIE_06 = "I'm frightened, I want to cry.";
+TXT_RANDOM_ANSZOMBIE_07 = "I just want to meet my god John Romero.";
 TXT_RANDOM_ANSZOMBIE_08 = "Okay, good luck with your surveillance sir.";
-TXT_RANDOM_ANSZOMBIE_09 = "God bless you sir";
+TXT_RANDOM_ANSZOMBIE_09 = "God bless you sir.";
 TXT_RANDOM_ANSZOMBIE_10 = "Okay, Thanks!";
 
 //Mancubus
-TXT_RANDOM_FATSO_01 = "Don't bother me, lil meat grrr";
+TXT_RANDOM_FATSO_01 = "Don't bother me, lil meat grrr...";
 TXT_RANDOM_FATSO_02 = "Grrrr...";
 TXT_RANDOM_FATSO_03 = "Get out of my face you tiny programmerrrr!";
 TXT_RANDOM_FATSO_04 = "Your flesh must be so tasty grrr...";
-TXT_RANDOM_FATSO_05 = "I've eaten bigger snacks than you grrrr";
+TXT_RANDOM_FATSO_05 = "I've eaten bigger snacks than you grrrr!";
 TXT_RANDOM_FATSO_06 = "I'm hungrrrry, you want to be my food grrrr?";
 TXT_RANDOM_FATSO_07 = "I'm here to prrrrrotect the RRRRRomero Games facility, not talk to you.";
-TXT_RANDOM_FATSO_08 = "Id software has a lousy meal GRRRR";
-TXT_RANDOM_FATSO_09 = "Grrrrr....Get out of my face. meat";
+TXT_RANDOM_FATSO_08 = "Id Software has a lousy meal GRRRR!";
+TXT_RANDOM_FATSO_09 = "Grrrrr....Get out of my face, meat.";
 TXT_RANDOM_FATSO_10 = "Grrrrr...";
 
 TXT_RANDOM_ANSFATSO_01 = "I'm sorry. I didn't mean to upset you.";
-TXT_RANDOM_ANSFATSO_02 = "You've offended me, I'm going to tweet about it";
+TXT_RANDOM_ANSFATSO_02 = "You've offended me, I'm going to tweet about it.";
 TXT_RANDOM_ANSFATSO_03 = "Calm down, don't get upset.";
-TXT_RANDOM_ANSFATSO_04 = "You seem tense, you should try meditation";
-TXT_RANDOM_ANSFATSO_05 = "I think I'm going to cry, I feel oppressed";
-TXT_RANDOM_ANSFATSO_06 = "I'm afraid I want to cry";
+TXT_RANDOM_ANSFATSO_04 = "You seem tense, you should try meditation don't you?";
+TXT_RANDOM_ANSFATSO_05 = "I think I'm going to cry, I feel so oppressed.";
+TXT_RANDOM_ANSFATSO_06 = "I'm frightened, I want to cry.";
 TXT_RANDOM_ANSFATSO_07 = "Calm down, don't get upset.";
-TXT_RANDOM_ANSFATSO_08 = "You seem tense, you should try meditation";
-TXT_RANDOM_ANSFATSO_09 = "I think I'm going to cry, I feel oppressed";
-TXT_RANDOM_ANSFATSO_10 = "I'm afraid I want to cry";
+TXT_RANDOM_ANSFATSO_08 = "You seem tense, you should try meditation don't you?";
+TXT_RANDOM_ANSFATSO_09 = "I think I'm going to cry, I feel so oppressed.";
+TXT_RANDOM_ANSFATSO_10 = "I'm frightened, I want to cry.";
 
 //Revenant secretary
 TXT_RANDOM_REV_01 = "Whoooo aaaaaaaaaare youuuu looking forrrrrrr??";
@@ -90,7 +90,7 @@ TXT_RANDOM_ANSREV_09 = "Okay, Thanks!";
 TXT_RANDOM_ANSREV_10 = "Okay, Thanks!";
 
 //Shotgunguy
-TXT_RANDOM_SHOTGUY_01 = "Don't bother me, I'm busy watching the entrance";
+TXT_RANDOM_SHOTGUY_01 = "Don't bother me, I'm busy guarding the entrance.";
 TXT_RANDOM_SHOTGUY_02 = "...";
 TXT_RANDOM_SHOTGUY_03 = "Get out of my face...";
 TXT_RANDOM_SHOTGUY_04 = "You don't look very smart, what are you doing here?";
@@ -98,7 +98,7 @@ TXT_RANDOM_SHOTGUY_05 = "Oh no!...Another stupid programmer.";
 TXT_RANDOM_SHOTGUY_06 = "There are no refunds here for Daikatana.";
 TXT_RANDOM_SHOTGUY_07 = "I'm here to protect the Romero Games facility, not talk to you.";
 TXT_RANDOM_SHOTGUY_08 = "No, this is not the Id Software building.";
-TXT_RANDOM_SHOTGUY_09 = "You better talk to my partner";
+TXT_RANDOM_SHOTGUY_09 = "You better talk to my partner.";
 TXT_RANDOM_SHOTGUY_10 = "Ok, doomer";
 
 TXT_RANDOM_ANSHOTGUY_01 = "Okay, Thanks!";
@@ -114,12 +114,16 @@ TXT_RANDOM_ANSHOTGUY_10 = "Okay, Thanks!";
 
 //Candidate
 TXT_RANDOM_CANDIDATE_01 = "I'm John Romero, I'm John Romero, I'm John Romero, I'm John Romero...";
-TXT_RANDOM_CANDIDATE_02 = "I can finally meet my idol John Romero";
-TXT_RANDOM_CANDIDATE_03 = "I got fired from Id software for killing pigeons,\nI got my hopes up with Romero.";
+TXT_RANDOM_CANDIDATE_02 = "I can finally meet my idol John Romero!";
+TXT_RANDOM_CANDIDATE_03 = "I have been fired from Id Software for killing pigeons,\nI got my hopes up with Romero.";
 TXT_RANDOM_CANDIDATE_04 = "I didn't want to leave my room, but my mommy made me come.";
 TXT_RANDOM_CANDIDATE_05 = "John Romero is the sexiest man in the world.";
 TXT_RANDOM_CANDIDATE_06 = "I'm John Romero, I'm John Romero, I'm John Romero, I'm John Romero...";
-TXT_RANDOM_CANDIDATE_07 = "I can finally meet my idol John Romero";
-TXT_RANDOM_CANDIDATE_08 = "I got fired from Id software for killing pigeons,\nI got my hopes up with Romero.";
-TXT_RANDOM_CANDIDATE_09 = "I didn't want to leave my room, but my mommy made me come.";
+TXT_RANDOM_CANDIDATE_07 = "I can finally meet my idol John Romero!";
+TXT_RANDOM_CANDIDATE_03 = "I have been fired from Id Software for killing pigeons,\nI got my hopes up with Romero.";
+TXT_RANDOM_CANDIDATE_09 = "I didn't want to leave my room, but my mommy forced me.";
 TXT_RANDOM_CANDIDATE_10 = "John Romero is the sexiest man in the world.";
+
+//Maps Stuff
+COVID = "\crHellcome to 'coVIDOOM-19' map";
+MASSACRE = "\crHellcome to 'Massacre in Romero Games' map";
