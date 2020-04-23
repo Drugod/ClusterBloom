@@ -1,6 +1,6 @@
-*===================================================*
-*==> BlooM Team is Drugo, Rolls and Ozymandias81 <==*
-*===================================================*
+*====================================================*
+*==> BlooM Team is Drugod, Rolls and Ozymandias81 <==*
+*====================================================*
 
 Project Leader, Mapper, Textures, Scripting - Drugod
 Art Creator, Sprites, Textures, Midis - Rolls
