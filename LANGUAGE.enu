@@ -1,9 +1,12 @@
 [enu default]
 
 //OBITUARIES - HYBRIDS
-OB_VIRUS = "%o gets devoured by a Cacovirus";
-OB_VIRUSHIT = "%o has been bitten by a Cacovirus";
+OB_VIRUS = "%o gets devoured by a Cacovirus.";
+OB_VIRUSHIT = "%o has been bitten by a Cacovirus.";
 OB_FIZZLE = "%o was fizzled to death.";
+
+//PICKUPS
+IP_GLOBE = "You picked up some red globule.";
 
 ///////////////////////////////////
 //DIALOG
