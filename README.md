@@ -7,7 +7,7 @@ Follow us on:
 YT: https://youtube.com/c/BloomTeam666
 FB: https://www.facebook.com/bloomteamdev
 TT: https://twitter.com/BloomTeam1
-IM: https://twitter.com/BloomTeam1
+IM: https://www.instagram.com/bloomteam666/
 
 In case do you wanna support bloom team, please check the following link:
 https://www.patreon.com/bloomteam
