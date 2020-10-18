@@ -1,13 +1,16 @@
 This repository belongs to BLOOM TEAM
 
 We have a website for this mod, check it asap: https://www.bloomteam666.com
-
 Also exists a ModDB page for it too: https://www.moddb.com/mods/clusterbloom
 
-There are also threads on ZDoom Forums and Doomworld, check 'em out and give us feedbacks!
+Follow us on:
+YT: https://youtube.com/c/BloomTeam666
+FB: https://www.facebook.com/bloomteamdev
+TT: https://twitter.com/BloomTeam1
+IM: https://twitter.com/BloomTeam1
 
-Doomworld: https://www.doomworld.com/forum/topic/110117-bloom-doomblood-crossover/
-ZDoom Forums:
+In case do you wanna support bloom team, please check the following link:
+https://www.patreon.com/bloomteam
 
 You need GZDoom 3.7.2 minimum within any Doom2 IWAD derived files though, plus a compatible gpu with 3.3 GL shaders minimum.
 
